@@ -10,7 +10,6 @@
 		18B173A71CF8547E00FD107F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B173A61CF8547E00FD107F /* main.m */; };
 		18B173AA1CF8547E00FD107F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B173A91CF8547E00FD107F /* AppDelegate.m */; };
 		775FFEE31CFECB160048A1B4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 775FFEE01CFECB160048A1B4 /* MainViewController.m */; };
-		775FFEE41CFECB160048A1B4 /* SlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 775FFEE21CFECB160048A1B4 /* SlideView.m */; };
 		775FFF241CFECB290048A1B4 /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = 775FFEE81CFECB290048A1B4 /* CALayer+Anim.m */; };
 		775FFF251CFECB290048A1B4 /* CALayer+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 775FFEEA1CFECB290048A1B4 /* CALayer+Transition.m */; };
 		775FFF261CFECB290048A1B4 /* CALayerAnimConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 775FFEED1CFECB290048A1B4 /* CALayerAnimConst.m */; };
@@ -40,6 +39,7 @@
 		7795D5F11CFEDC1100DE1676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7795D5EF1CFEDC1100DE1676 /* Assets.xcassets */; };
 		7795D5F21CFEDC1100DE1676 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7795D5F01CFEDC1100DE1676 /* Info.plist */; };
 		7795D5F51CFEDC4400DE1676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7795D5F31CFEDC4400DE1676 /* LaunchScreen.storyboard */; };
+		7795D5F81CFEE28F00DE1676 /* SlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7795D5F71CFEE28F00DE1676 /* SlideView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,8 +49,6 @@
 		18B173A91CF8547E00FD107F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		775FFEDF1CFECB160048A1B4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		775FFEE01CFECB160048A1B4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		775FFEE11CFECB160048A1B4 /* SlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideView.h; path = ../SlideView.h; sourceTree = "<group>"; };
-		775FFEE21CFECB160048A1B4 /* SlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideView.m; path = ../SlideView.m; sourceTree = "<group>"; };
 		775FFEE71CFECB290048A1B4 /* CALayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Anim.h"; sourceTree = "<group>"; };
 		775FFEE81CFECB290048A1B4 /* CALayer+Anim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Anim.m"; sourceTree = "<group>"; };
 		775FFEE91CFECB290048A1B4 /* CALayer+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Transition.h"; sourceTree = "<group>"; };
@@ -107,6 +105,8 @@
 		7795D5EF1CFEDC1100DE1676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BabySong/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		7795D5F01CFEDC1100DE1676 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BabySong/Info.plist; sourceTree = SOURCE_ROOT; };
 		7795D5F41CFEDC4400DE1676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = BabySong/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		7795D5F61CFEE28F00DE1676 /* SlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideView.h; path = BabySong/Controllers/SlideView.h; sourceTree = SOURCE_ROOT; };
+		7795D5F71CFEE28F00DE1676 /* SlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideView.m; path = BabySong/Controllers/SlideView.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -400,8 +400,8 @@
 		775FFF461CFECC150048A1B4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				775FFEE11CFECB160048A1B4 /* SlideView.h */,
-				775FFEE21CFECB160048A1B4 /* SlideView.m */,
+				7795D5F61CFEE28F00DE1676 /* SlideView.h */,
+				7795D5F71CFEE28F00DE1676 /* SlideView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -498,9 +498,9 @@
 				775FFF3A1CFECB290048A1B4 /* UIWindow+Launch.m in Sources */,
 				775FFF2C1CFECB290048A1B4 /* UIBarButtonItem+Extend.m in Sources */,
 				775FFF381CFECB290048A1B4 /* UIView+Extend.m in Sources */,
-				775FFEE41CFECB160048A1B4 /* SlideView.m in Sources */,
 				775FFF2D1CFECB290048A1B4 /* UIColor+Extend.m in Sources */,
 				775FFF361CFECB290048A1B4 /* UIImage+Water.m in Sources */,
+				7795D5F81CFEE28F00DE1676 /* SlideView.m in Sources */,
 				18B173AA1CF8547E00FD107F /* AppDelegate.m in Sources */,
 				18B173A71CF8547E00FD107F /* main.m in Sources */,
 				775FFF2F1CFECB290048A1B4 /* UIViewController+Extend.m in Sources */,
