@@ -1,0 +1,76 @@
+{
+  "data": [
+      {
+          "title": "爸爸妈妈听我说",
+          "artist": "段丽阳",
+          "pic": "http://aufree.qiniudn.com/images/album/img20/89520/4280541424067346.jpg",
+          "music_url" : "http://1.hellozyj.sinaapp.com/music/1.mp3"
+      },
+           {
+           "title": "儿童合唱团",
+           "artist": "梦中天使",
+           "pic": "http://aufree.qiniudn.com/images/album/img20/89520/4280541424067346.jpg",
+           "music_url" : "http://1.hellozyj.sinaapp.com/music/2.mp3"
+           },
+           {
+           "title": "龙舟舟",
+           "artist": "群星",
+           "pic": "http://aufree.qiniudn.com/images/album/img20/89520/4280541424067346.jpg",
+           "music_url" : "http://1.hellozyj.sinaapp.com/music/3.mp3"
+           },
+           {
+           "title": "小作曲家主题曲",
+           "artist": "群星",
+           "pic": "http://aufree.qiniudn.com/images/album/img20/89520/4280541424067346.jpg",
+           "music_url" : "http://1.hellozyj.sinaapp.com/music/4.mp3"
+           },
+           {
+           "title": "世上只有妈妈好",
+           "artist": "少儿歌曲",
+           "pic": "http://aufree.qiniudn.com/images/album/img20/89520/4280541424067346.jpg",
+           "music_url" : "http://1.hellozyj.sinaapp.com/music/5.mp3"
+           },
+           {
+           "title": "小白兔乖乖",
+           "artist": "少儿歌曲",
+           "pic": "http://aufree.qiniudn.com/images/album/img20/89520/4280541424067346.jpg",
+           "music_url" : "http://1.hellozyj.sinaapp.com/music/6.mp3"
+           },
+           {
+           "title": "小燕子",
+           "artist": "少儿歌曲",
+           "pic": "http://aufree.qiniudn.com/images/album/img20/89520/4280541424067346.jpg",
+           "music_url" : "http://1.hellozyj.sinaapp.com/music/7.mp3"
+           },
+           {
+           "title": "虫儿飞",
+           "artist": "杨烁",
+           "pic": "http://aufree.qiniudn.com/images/album/img20/89520/4280541424067346.jpg",
+           "music_url" : "http://1.hellozyj.sinaapp.com/music/8.mp3"
+           },
+           {
+           "title": "捉泥鳅",
+           "artist": "杨烁",
+           "pic": "http://aufree.qiniudn.com/images/album/img20/89520/4280541424067346.jpg",
+           "music_url" : "http://1.hellozyj.sinaapp.com/music/9.mp3"
+           },
+           {
+           "title": "月光光，照地堂",
+           "artist": "Cream",
+           "pic": "http://aufree.qiniudn.com/images/album/img20/89520/4280541424067346.jpg",
+           "music_url" : "http://1.hellozyj.sinaapp.com/music/10.mp3"
+           },
+           {
+           "title": "给你的歌",
+           "artist": "G.E.M. 邓紫棋",
+           "pic": "http://aufree.qiniudn.com/images/album/img20/89520/4280541424067346.jpg",
+           "music_url" : "http://1.hellozyj.sinaapp.com/music/11.mp3"
+           },
+           {
+           "title": "恭喜你",
+           "artist": "Kk儿童偶像乐团",
+           "pic": "http://aufree.qiniudn.com/images/album/img20/89520/4280541424067346.jpg",
+           "music_url" : "http://1.hellozyj.sinaapp.com/music/12.mp3"
+           }
+    ]
+}
