@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    UIImage *navBackImage = [UIImage imageFromContextWithColor:[UIColor blueColor]];
+    UIImage *navBackImage = [UIImage imageFromContextWithColor:rgb(252, 70, 30)];
     
     [self.navigationBar setBackgroundImage:navBackImage forBarMetrics:UIBarMetricsDefault];
 }

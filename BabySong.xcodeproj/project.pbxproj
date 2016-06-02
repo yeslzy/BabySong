@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		18B173A71CF8547E00FD107F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B173A61CF8547E00FD107F /* main.m */; };
 		18B173AA1CF8547E00FD107F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B173A91CF8547E00FD107F /* AppDelegate.m */; };
+		770042C21CFFC45E004C689A /* main_nav_left_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 770042C01CFFC45E004C689A /* main_nav_left_btn@3x.png */; };
+		770042C31CFFC45E004C689A /* main_nav_left_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 770042C11CFFC45E004C689A /* main_nav_left_btn@2x.png */; };
+		770042C81CFFDB09004C689A /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 770042C71CFFDB09004C689A /* iCarousel.m */; };
+		770042D61D001E4F004C689A /* NAKPlaybackIndicatorContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 770042D11D001E4F004C689A /* NAKPlaybackIndicatorContentView.m */; };
+		770042D71D001E4F004C689A /* NAKPlaybackIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 770042D31D001E4F004C689A /* NAKPlaybackIndicatorView.m */; };
 		775FFEE31CFECB160048A1B4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 775FFEE01CFECB160048A1B4 /* MainViewController.m */; };
 		775FFF241CFECB290048A1B4 /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = 775FFEE81CFECB290048A1B4 /* CALayer+Anim.m */; };
 		775FFF251CFECB290048A1B4 /* CALayer+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 775FFEEA1CFECB290048A1B4 /* CALayer+Transition.m */; };
@@ -47,6 +52,14 @@
 		18B173A61CF8547E00FD107F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18B173A81CF8547E00FD107F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18B173A91CF8547E00FD107F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		770042C01CFFC45E004C689A /* main_nav_left_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_nav_left_btn@3x.png"; sourceTree = "<group>"; };
+		770042C11CFFC45E004C689A /* main_nav_left_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_nav_left_btn@2x.png"; sourceTree = "<group>"; };
+		770042C61CFFDB09004C689A /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		770042C71CFFDB09004C689A /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		770042D01D001E4F004C689A /* NAKPlaybackIndicatorContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAKPlaybackIndicatorContentView.h; sourceTree = "<group>"; };
+		770042D11D001E4F004C689A /* NAKPlaybackIndicatorContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAKPlaybackIndicatorContentView.m; sourceTree = "<group>"; };
+		770042D21D001E4F004C689A /* NAKPlaybackIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAKPlaybackIndicatorView.h; sourceTree = "<group>"; };
+		770042D31D001E4F004C689A /* NAKPlaybackIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAKPlaybackIndicatorView.m; sourceTree = "<group>"; };
 		775FFEDF1CFECB160048A1B4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		775FFEE01CFECB160048A1B4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		775FFEE71CFECB290048A1B4 /* CALayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Anim.h"; sourceTree = "<group>"; };
@@ -154,10 +167,49 @@
 		18B173A51CF8547E00FD107F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				770042B91CFFC111004C689A /* Image */,
 				775FFF3B1CFECB3F0048A1B4 /* PrefixHeader.pch */,
 				18B173A61CF8547E00FD107F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		770042B91CFFC111004C689A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				770042C01CFFC45E004C689A /* main_nav_left_btn@3x.png */,
+				770042C11CFFC45E004C689A /* main_nav_left_btn@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		770042C51CFFDB09004C689A /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				770042C61CFFDB09004C689A /* iCarousel.h */,
+				770042C71CFFDB09004C689A /* iCarousel.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		770042C91D00116A004C689A /* LeftSide */ = {
+			isa = PBXGroup;
+			children = (
+				7795D5F61CFEE28F00DE1676 /* SlideView.h */,
+				7795D5F71CFEE28F00DE1676 /* SlideView.m */,
+			);
+			name = LeftSide;
+			sourceTree = "<group>";
+		};
+		770042CF1D001E4F004C689A /* NAKPlaybackIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				770042D01D001E4F004C689A /* NAKPlaybackIndicatorContentView.h */,
+				770042D11D001E4F004C689A /* NAKPlaybackIndicatorContentView.m */,
+				770042D21D001E4F004C689A /* NAKPlaybackIndicatorView.h */,
+				770042D31D001E4F004C689A /* NAKPlaybackIndicatorView.m */,
+			);
+			path = NAKPlaybackIndicatorView;
 			sourceTree = "<group>";
 		};
 		775FFEDA1CFECA510048A1B4 /* Helpers */ = {
@@ -187,6 +239,8 @@
 		775FFEDD1CFECA510048A1B4 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				770042CF1D001E4F004C689A /* NAKPlaybackIndicatorView */,
+				770042C51CFFDB09004C689A /* iCarousel */,
 				775FFEE51CFECB290048A1B4 /* CoreCategory */,
 			);
 			path = Vendors;
@@ -195,6 +249,7 @@
 		775FFEDE1CFECA880048A1B4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				770042C91D00116A004C689A /* LeftSide */,
 				775FFF461CFECC150048A1B4 /* View */,
 				775FFF451CFECBF20048A1B4 /* Base */,
 				775FFEDF1CFECB160048A1B4 /* MainViewController.h */,
@@ -400,8 +455,6 @@
 		775FFF461CFECC150048A1B4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7795D5F61CFEE28F00DE1676 /* SlideView.h */,
-				7795D5F71CFEE28F00DE1676 /* SlideView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -464,9 +517,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				770042C21CFFC45E004C689A /* main_nav_left_btn@3x.png in Resources */,
 				7795D5F51CFEDC4400DE1676 /* LaunchScreen.storyboard in Resources */,
 				7795D5F21CFEDC1100DE1676 /* Info.plist in Resources */,
 				7795D5F11CFEDC1100DE1676 /* Assets.xcassets in Resources */,
+				770042C31CFFC45E004C689A /* main_nav_left_btn@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,12 +534,14 @@
 			files = (
 				775FFF281CFECB290048A1B4 /* NSDate+Extend.m in Sources */,
 				775FFF341CFECB290048A1B4 /* UIImage+Extend.m in Sources */,
+				770042D71D001E4F004C689A /* NAKPlaybackIndicatorView.m in Sources */,
 				775FFF441CFECB8B0048A1B4 /* TestViewController.m in Sources */,
 				775FFF301CFECB290048A1B4 /* UIDevice+Extend.m in Sources */,
 				775FFF291CFECB290048A1B4 /* NSObject+Extend.m in Sources */,
 				775FFF2E1CFECB290048A1B4 /* CheckTFModel.m in Sources */,
 				775FFF401CFECB7D0048A1B4 /* BaseViewController.m in Sources */,
 				775FFF241CFECB290048A1B4 /* CALayer+Anim.m in Sources */,
+				770042C81CFFDB09004C689A /* iCarousel.m in Sources */,
 				775FFF251CFECB290048A1B4 /* CALayer+Transition.m in Sources */,
 				775FFF2B1CFECB290048A1B4 /* NSString+Password.m in Sources */,
 				775FFF261CFECB290048A1B4 /* CALayerAnimConst.m in Sources */,
@@ -494,6 +551,7 @@
 				775FFF371CFECB290048A1B4 /* UITableViewCell+Extend.m in Sources */,
 				775FFF411CFECB7D0048A1B4 /* BaseNavigationController.m in Sources */,
 				775FFF351CFECB290048A1B4 /* UIImage+FixOrientation.m in Sources */,
+				770042D61D001E4F004C689A /* NAKPlaybackIndicatorContentView.m in Sources */,
 				775FFF271CFECB290048A1B4 /* NSArray+Extend.m in Sources */,
 				775FFF3A1CFECB290048A1B4 /* UIWindow+Launch.m in Sources */,
 				775FFF2C1CFECB290048A1B4 /* UIBarButtonItem+Extend.m in Sources */,

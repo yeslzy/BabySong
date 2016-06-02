@@ -30,6 +30,7 @@
 
 #define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
 #define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+#define RGBHEX(hex)  [UIColor colorWithRed:(float)((hex >> 16) & 0xFF)/255.0f green:(float)((hex >> 8) & 0xFF)/255.0f blue:(float)((hex) & 0xFF)/255.0f alpha:1.0f]
 
 #define MY_PROPORTION_SIZE_6Plus (VIEW_WIDTH / 414.f)
 #define MY_PROPORTION_SIZEHEIGHT_6Plus (VIEW_HEIGHT / 736.f)
@@ -41,5 +42,10 @@
 #define systemVersionFloatValue [UIDevice currentDevice].systemVersion.floatValue
 #define VIEW_WIDTH  [[UIScreen mainScreen] bounds].size.width
 #define VIEW_HEIGHT [[UIScreen mainScreen] bounds].size.height
+
+#define View_Background_Color RGBCOLOR(253,253,253)
+
+#define Default_font_color RGBHEX(33475F)
+#define Light_font_color RGBHEX(eb4f38)
 
 #endif /* PrefixHeader_pch */

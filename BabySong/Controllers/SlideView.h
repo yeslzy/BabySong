@@ -10,7 +10,7 @@
 
 @protocol SlideViewDelegate <NSObject>
 
-
+- (void)didSelectItem:(NSInteger)index;
 
 @end
 
@@ -18,6 +18,19 @@
 
 @property (nonatomic, assign)id<SlideViewDelegate> delegate;
 
-- (instancetype)initWithFrame:(CGRect)frame delegate:(id)delegate;
+@property (nonatomic, assign)BOOL isShowed;
+
+@property (nonatomic, assign)BOOL canPanGestureWork;
+
++ (SlideView *)setup:(id)delegate didSelectItem:(void (^)(NSInteger index))selectItemIndex;
+
++ (void)show;
+
++ (void)dismiss;
+
+@end
+
+
+@interface LeftSideCell : UITableViewCell
 
 @end
